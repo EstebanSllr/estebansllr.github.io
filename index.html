@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estéban Seiller — Développeur en formation</title>
+    <title>Estéban Seiller — Portfolio & CV</title>
     <link rel="icon" href="data:,">
 
     <!-- Tailwind CDN -->
@@ -46,14 +46,6 @@
 
         body {
             background-color: #0F1115;
-        }
-
-        .timeline-line {
-            background: linear-gradient(to bottom, transparent, #262B33 8%, #262B33 92%, transparent);
-        }
-
-        .timeline-dot {
-            box-shadow: 0 0 0 4px #0F1115;
         }
 
         .underline-grow {
@@ -99,8 +91,8 @@
         <div class="max-w-5xl mx-auto px-6 sm:px-10 h-16 flex items-center justify-between">
             <a href="#" class="font-serif text-lg tracking-tight">Estéban Seiller</a>
             <nav class="hidden sm:flex items-center gap-8 text-sm text-muted">
-                <a href="#parcours" class="underline-grow hover:text-ink pb-0.5">Parcours</a>
                 <a href="#experiences" class="underline-grow hover:text-ink pb-0.5">Expériences</a>
+                <a href="#formations" class="underline-grow hover:text-ink pb-0.5">Formations</a>
                 <a href="#competences" class="underline-grow hover:text-ink pb-0.5">Compétences</a>
                 <a href="#contact" class="underline-grow hover:text-ink pb-0.5">Contact</a>
             </nav>
@@ -112,22 +104,22 @@
     </header>
 
     <!-- HERO -->
-    <section class="max-w-5xl mx-auto px-6 sm:px-10 pt-40 pb-24">
-        <p class="font-mono text-xs text-accent tracking-wide mb-6">Recherche de stage · avril — août 2027</p>
-        <h1 class="font-serif text-5xl sm:text-6xl leading-[1.05] max-w-3xl">
-            Du dépannage réseau au code applicatif —
-            <span class="italic text-muted">un parcours construit stage après stage.</span>
+    <section class="max-w-5xl mx-auto px-6 sm:px-10 pt-36 pb-20">
+        <p class="font-mono text-xs text-accent tracking-wide mb-4">RECHERCHE DE STAGE · 1er Avril au 31 août 2027</p>
+        <h1 class="font-serif text-4xl sm:text-6xl leading-[1.1] max-w-3xl">
+            Estéban Seiller — <br>
+            <span class="italic text-muted">Développeur informatique en formation</span>
         </h1>
-        <p class="mt-8 max-w-xl text-muted leading-relaxed">
-            Étudiant en 2ᵉ année de Bachelor développement informatique à l'IPI (Igensia Tech), Blagnac.
-            J'ai grandi techniquement sur le terrain — câblage, alarmes, postes de travail — avant de
-            basculer vers le développement. Aujourd'hui je cherche un stage de deux mois pour construire
-            quelque chose de concret avec une équipe.
+        <p class="mt-6 max-w-2xl text-muted leading-relaxed">
+            Actuellement en deuxième année de Bachelor en développement informatique à Blagnac (IPI / Igensia Tech),
+            j'ai acquis une expérience précieuse en entreprise grâce à de nombreux stages. Je recherche un stage de deux
+            mois entre le 1er avril et le 31 août 2027 afin de me mettre au service de votre équipe et de m'investir sur
+            des projets techniques concrets.
         </p>
-        <div class="mt-10 flex flex-wrap items-center gap-4 text-sm">
+        <div class="mt-8 flex flex-wrap items-center gap-4 text-sm">
             <a href="mailto:seiller.esteban.sn@gmail.com"
                 class="bg-accent text-bg px-5 py-2.5 rounded-full font-medium hover:opacity-90 transition-opacity">
-                Écrire un mail
+                seiller.esteban.sn@gmail.com
             </a>
             <a href="tel:0647022798"
                 class="border border-border px-5 py-2.5 rounded-full text-ink hover:border-accent hover:text-accent transition-colors">
@@ -137,210 +129,191 @@
         </div>
     </section>
 
-    <!-- PARCOURS -->
-    <section id="parcours" class="max-w-5xl mx-auto px-6 sm:px-10 py-24 border-t border-border">
-        <div class="flex items-baseline justify-between mb-16">
-            <h2 class="font-serif text-3xl">Parcours</h2>
-            <span class="font-mono text-xs text-muted">2022 → aujourd'hui</span>
+    <!-- EXPÉRIENCES PROFESSIONNELLES (Antéchronologique) -->
+    <section id="experiences" class="max-w-5xl mx-auto px-6 sm:px-10 py-20 border-t border-border">
+        <div class="flex items-baseline justify-between mb-12">
+            <h2 class="font-serif text-3xl">Expériences Professionnelles</h2>
+            <span class="font-mono text-xs text-accent">La plus récente en haut</span>
         </div>
 
-        <div class="relative">
-            <div class="timeline-line absolute left-[7px] top-2 bottom-2 w-px"></div>
+        <div class="space-y-8">
 
-            <ol class="space-y-14">
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-border"></span>
-                    <p class="font-mono text-xs text-muted mb-1">2022 — Collège Aurignac</p>
-                    <h3 class="font-serif text-xl mb-2">Brevet des collèges, mention bien</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Le point de départ. Rien d'informatique encore, mais déjà l'idée que comprendre
-                        comment les choses fonctionnent en dessous compte plus que les retenir par cœur.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-border"></span>
-                    <p class="font-mono text-xs text-muted mb-1">2022 — SCT Céramique, Bazet · 4 semaines</p>
-                    <h3 class="font-serif text-xl mb-2">Premier contact avec le terrain</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Installation de postes informatiques, configuration de Windows 11, support technique.
-                        Un stage d'observation qui confirme une chose : je veux comprendre les systèmes, pas
-                        seulement les utiliser.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-accent"></span>
-                    <p class="font-mono text-xs text-muted mb-1">2022 – 2025 — Lycée Saint-Pierre, Tarbes</p>
-                    <h3 class="font-serif text-xl mb-2">Bac Pro Système Numérique</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Trois ans à démonter, câbler et réparer avant de programmer. Réseaux, télécoms,
-                        électronique embarquée : le socle technique sur lequel toute la suite s'appuie.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-border"></span>
-                    <p class="font-mono text-xs text-muted mb-1">2023 — Hydralarm, Toulouse · 6 semaines</p>
-                    <h3 class="font-serif text-xl mb-2">Réseaux industriels et systèmes d'alarme</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Maintenance de systèmes d'alarme et de télécommunications, mise en place de réseau
-                        industriel, travail en équipe sur chantier. J'apprends à travailler dans des
-                        contraintes réelles, pas seulement en atelier.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-border"></span>
-                    <p class="font-mono text-xs text-muted mb-1">2024 — Saint-Pierre, Tarbes</p>
-                    <h3 class="font-serif text-xl mb-2">Sauveteur Secouriste du Travail (SST)</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        En parallèle du cursus technique, la certification SST — la responsabilité ne
-                        s'arrête pas au poste de travail.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-accent"></span>
-                    <p class="font-mono text-xs text-muted mb-1">2024 – 2025 — Maia Logiciel, Toulouse · 10 semaines</p>
-                    <h3 class="font-serif text-xl mb-2">Le basculement vers le développement</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Participation au développement d'une application interne pour l'entreprise, et
-                        création en parallèle d'une application personnelle pour m'entraîner. C'est ce
-                        stage qui décide de la suite : je veux coder, pas seulement maintenir.
-                    </p>
-                    <a href="https://my-material-kw1u4nb50-estebans-projects-e8084e73.vercel.app/" target="_blank"
-                        rel="noopener" class="inline-flex items-center gap-1 mt-3 text-sm text-accent underline-grow">
-                        Voir l'application personnelle ↗
-                    </a>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-accent"></span>
-                    <p class="font-mono text-xs text-muted mb-1">Juillet 2025 — Perpignan</p>
-                    <h3 class="font-serif text-xl mb-2">Finisher de la Piscine 42</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Un mois de projets intensifs en algorithmique et C, sans cours magistraux — seulement
-                        des problèmes à résoudre et des pairs pour se corriger. De quoi confirmer que
-                        j'apprends mieux en construisant qu'en écoutant.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-accent"></span>
-                    <p class="font-mono text-xs text-muted mb-1">Depuis 2025 — IPI / Igensia Tech, Blagnac</p>
-                    <h3 class="font-serif text-xl mb-2">Bachelor développement informatique, 2ᵉ année</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Formation actuelle. Montée en compétence sur le développement web — HTML, Angular —
-                        avec l'objectif de devenir développeur fullstack et, à terme, de travailler sur des
-                        projets liés à l'IA.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-border"></span>
-                    <p class="font-mono text-xs text-muted mb-1">Août – Octobre 2025 — Intermarché</p>
-                    <h3 class="font-serif text-xl mb-2">CDD étudiant, Drive</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Service aux clients, gestion des commandes. Le financement des études passe aussi
-                        par là.
-                    </p>
-                </li>
-
-                <li class="relative pl-10">
-                    <span class="timeline-dot absolute left-0 top-1.5 w-[15px] h-[15px] rounded-full bg-border"></span>
-                    <p class="font-mono text-xs text-muted mb-1">Depuis décembre 2025 — Leclerc</p>
-                    <h3 class="font-serif text-xl mb-2">CDI étudiant, Drive</h3>
-                    <p class="text-muted text-sm leading-relaxed max-w-lg">
-                        Poste actuel, les week-ends, en parallèle du Bachelor. Gestion du stress et esprit
-                        d'équipe au quotidien.
-                    </p>
-                </li>
-
-            </ol>
-        </div>
-    </section>
-
-    <!-- EXPÉRIENCES -->
-    <section id="experiences" class="max-w-5xl mx-auto px-6 sm:px-10 py-24 border-t border-border">
-        <h2 class="font-serif text-3xl mb-16">Expériences en détail</h2>
-
-        <div class="grid sm:grid-cols-3 gap-px bg-border rounded-lg overflow-hidden">
-
-            <div class="bg-bg p-8">
-                <p class="font-mono text-xs text-accent mb-3">2024 — 2025 · 10 semaines</p>
-                <h3 class="font-serif text-xl mb-3">Maia Logiciel</h3>
-                <p class="text-muted text-sm leading-relaxed mb-4">
-                    Développement d'une application interne d'entreprise et création d'une application
-                    personnelle d'entraînement.
-                </p>
-                <p class="text-xs text-muted">Toulouse</p>
+            <!-- Leclerc -->
+            <div
+                class="border border-border rounded-xl p-6 sm:p-8 bg-surface/40 hover:border-accent/50 transition-colors">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                    <h3 class="font-serif text-xl">CDI étudiant — Leclerc</h3>
+                    <span class="font-mono text-xs text-accent bg-accent/10 px-3 py-1 rounded-full w-fit">Depuis
+                        Décembre 2025</span>
+                </div>
+                <p class="text-sm font-medium text-ink mb-2">Drive, services aux clients</p>
+                <p class="text-sm text-muted leading-relaxed">Service direct, préparation de commandes, gestion du flux
+                    client et travail en équipe sous contraintes de temps.</p>
             </div>
 
-            <div class="bg-bg p-8">
-                <p class="font-mono text-xs text-accent mb-3">2023 · 6 semaines</p>
-                <h3 class="font-serif text-xl mb-3">Hydralarm</h3>
-                <p class="text-muted text-sm leading-relaxed mb-4">
-                    Maintenance de systèmes d'alarme et de télécommunications, mise en place de réseau
-                    industriel, travail sur chantier.
-                </p>
-                <p class="text-xs text-muted">Toulouse</p>
+            <!-- Intermarché -->
+            <div
+                class="border border-border rounded-xl p-6 sm:p-8 bg-surface/40 hover:border-accent/50 transition-colors">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                    <h3 class="font-serif text-xl">CDD étudiant — Intermarché</h3>
+                    <span class="font-mono text-xs text-muted">28 Août 2025 — 28 Octobre 2025</span>
+                </div>
+                <p class="text-sm font-medium text-ink mb-2">Drive, services aux clients</p>
+                <p class="text-sm text-muted leading-relaxed">Gestion de la relation client, préparation et remise des
+                    commandes drive.</p>
             </div>
 
-            <div class="bg-bg p-8">
-                <p class="font-mono text-xs text-accent mb-3">2022 · 4 semaines</p>
-                <h3 class="font-serif text-xl mb-3">SCT Céramique</h3>
-                <p class="text-muted text-sm leading-relaxed mb-4">
-                    Installation de postes informatiques, configuration Windows 11, support technique.
+            <!-- Maia Logiciel -->
+            <div
+                class="border border-border rounded-xl p-6 sm:p-8 bg-surface/40 hover:border-accent/50 transition-colors">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                    <h3 class="font-serif text-xl">Stagiaire — Maia Logiciel</h3>
+                    <span class="font-mono text-xs text-muted">2024 / 2025 (Stage de 10 semaines) · Toulouse</span>
+                </div>
+                <p class="text-sm text-muted leading-relaxed mb-4">
+                    Aide à la réalisation des tâches pour l'entreprise, développement d'une application interne, et
+                    création d'une application personnelle d'entraînement.
                 </p>
-                <p class="text-xs text-muted">Bazet</p>
+                <a href="https://my-material-kw1u4nb50-estebans-projects-e8084e73.vercel.app/" target="_blank"
+                    rel="noopener" class="inline-flex items-center gap-2 text-xs font-mono text-accent hover:underline">
+                    Voir l'application personnelle d'entraînement ↗
+                </a>
+            </div>
+
+            <!-- Hydralarm -->
+            <div
+                class="border border-border rounded-xl p-6 sm:p-8 bg-surface/40 hover:border-accent/50 transition-colors">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                    <h3 class="font-serif text-xl">Stagiaire — Hydralarm</h3>
+                    <span class="font-mono text-xs text-muted">2023 (Stage de 6 semaines) · Toulouse</span>
+                </div>
+                <p class="text-sm text-muted leading-relaxed">
+                    Maintenance de systèmes d'alarme et de télécommunications, mise en place de réseau industriel,
+                    travail en équipe et sur chantier.
+                </p>
+            </div>
+
+            <!-- SCT Céramique -->
+            <div
+                class="border border-border rounded-xl p-6 sm:p-8 bg-surface/40 hover:border-accent/50 transition-colors">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                    <h3 class="font-serif text-xl">Stagiaire — SCT Céramique</h3>
+                    <span class="font-mono text-xs text-muted">2022 (Stage de 4 semaines) · Bazet</span>
+                </div>
+                <p class="text-sm text-muted leading-relaxed">
+                    Installation de postes informatique et configuration de Windows 11 pour l'entreprise, support
+                    technique et mise en place des systèmes informatiques.
+                </p>
             </div>
 
         </div>
     </section>
 
-    <!-- COMPÉTENCES -->
-    <section id="competences" class="max-w-5xl mx-auto px-6 sm:px-10 py-24 border-t border-border">
-        <h2 class="font-serif text-3xl mb-16">Compétences</h2>
+    <!-- FORMATIONS & DIPLÔMES (Antéchronologique) -->
+    <section id="formations" class="max-w-5xl mx-auto px-6 sm:px-10 py-20 border-t border-border">
+        <div class="flex items-baseline justify-between mb-12">
+            <h2 class="font-serif text-3xl">Formations & Diplômes</h2>
+            <span class="font-mono text-xs text-accent">Du plus récent au plus ancien</span>
+        </div>
 
-        <div class="grid sm:grid-cols-2 gap-16">
-            <div>
-                <p class="font-mono text-xs text-muted mb-5">Techniques</p>
-                <ul class="space-y-4">
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
+        <div class="space-y-6">
+
+            <!-- Bachelor -->
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between p-6 border border-border rounded-xl bg-surface/20">
+                <div>
+                    <h3 class="font-serif text-lg text-ink">Bachelor 2ème année — Igensia Tech (IPI)</h3>
+                    <p class="text-sm text-muted">Développement informatique · Blagnac</p>
+                </div>
+                <span class="font-mono text-xs text-accent mt-2 sm:mt-0">2025 — En cours</span>
+            </div>
+
+            <!-- Piscine 42 -->
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between p-6 border border-border rounded-xl bg-surface/20">
+                <div>
+                    <h3 class="font-serif text-lg text-ink">Finisher de la Piscine 42</h3>
+                    <p class="text-sm text-muted">Épreuve intensive d'algorithmique et programmation · Perpignan</p>
+                </div>
+                <span class="font-mono text-xs text-muted mt-2 sm:mt-0">Juillet 2025</span>
+            </div>
+
+            <!-- Bac Pro SN -->
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between p-6 border border-border rounded-xl bg-surface/20">
+                <div>
+                    <h3 class="font-serif text-lg text-ink">Bac Pro Système Numérique</h3>
+                    <p class="text-sm text-muted">Lycée Saint-Pierre · Tarbes</p>
+                </div>
+                <span class="font-mono text-xs text-muted mt-2 sm:mt-0">2022 — 2025</span>
+            </div>
+
+            <!-- SST -->
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between p-6 border border-border rounded-xl bg-surface/20">
+                <div>
+                    <h3 class="font-serif text-lg text-ink">Sauveteur Secouriste du Travail (SST)</h3>
+                    <p class="text-sm text-muted">Certification de secourisme · Saint-Pierre, Tarbes</p>
+                </div>
+                <span class="font-mono text-xs text-muted mt-2 sm:mt-0">2024</span>
+            </div>
+
+            <!-- Brevet -->
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between p-6 border border-border rounded-xl bg-surface/20">
+                <div>
+                    <h3 class="font-serif text-lg text-ink">Brevet des collèges — Mention Bien</h3>
+                    <p class="text-sm text-muted">Collège Aurignac</p>
+                </div>
+                <span class="font-mono text-xs text-muted mt-2 sm:mt-0">2022</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COMPÉTENCES & INTERÊTS -->
+    <section id="competences" class="max-w-5xl mx-auto px-6 sm:px-10 py-20 border-t border-border">
+        <h2 class="font-serif text-3xl mb-12">Compétences & Intérêts</h2>
+
+        <div class="grid sm:grid-cols-3 gap-8">
+            <!-- Compétences informatique -->
+            <div class="p-6 border border-border rounded-xl bg-surface/30">
+                <p class="font-mono text-xs text-accent mb-4 uppercase tracking-wider">Compétences informatique</p>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-center justify-between border-b border-border/50 pb-2">
                         <span>HTML</span>
-                        <span class="text-xs text-muted">pratique</span>
+                        <span class="text-xs text-muted font-mono">Acquis</span>
                     </li>
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
+                    <li class="flex items-center justify-between border-b border-border/50 pb-2">
                         <span>Angular</span>
-                        <span class="text-xs text-muted">notions</span>
+                        <span class="text-xs text-muted font-mono">Notions</span>
                     </li>
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
-                        <span>Réseaux &amp; systèmes</span>
-                        <span class="text-xs text-muted">Bac Pro + stages</span>
-                    </li>
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
-                        <span>Algorithmique / C</span>
-                        <span class="text-xs text-muted">Piscine 42</span>
+                    <li class="flex items-center justify-between border-b border-border/50 pb-2">
+                        <span>Développement Web</span>
+                        <span class="text-xs text-muted font-mono">Pratique</span>
                     </li>
                 </ul>
             </div>
 
-            <div>
-                <p class="font-mono text-xs text-muted mb-5">Savoir-être</p>
-                <ul class="space-y-4">
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
-                        <span>Esprit d'équipe</span>
+            <!-- Soft Skills -->
+            <div class="p-6 border border-border rounded-xl bg-surface/30">
+                <p class="font-mono text-xs text-accent mb-4 uppercase tracking-wider">Qualités & Soft Skills</p>
+                <ul class="space-y-2 text-sm text-muted">
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Esprit d'équipe</li>
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Serviabilité</li>
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Gestion du stress</li>
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Secouriste du travail (SST)
                     </li>
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
-                        <span>Serviabilité</span>
-                    </li>
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
-                        <span>Gestion du stress</span>
-                    </li>
-                    <li class="flex items-baseline justify-between border-b border-border pb-3">
-                        <span>Sauveteur Secouriste du Travail</span>
+                </ul>
+            </div>
+
+            <!-- Intérêts -->
+            <div class="p-6 border border-border rounded-xl bg-surface/30">
+                <p class="font-mono text-xs text-accent mb-4 uppercase tracking-wider">Centres d'intérêt</p>
+                <ul class="space-y-2 text-sm text-muted">
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Musculation</li>
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Voyages</li>
+                    <li class="flex items-center gap-2"><span class="text-accent">•</span> Développement informatique
                     </li>
                 </ul>
             </div>
@@ -348,36 +321,40 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="max-w-5xl mx-auto px-6 sm:px-10 py-24 border-t border-border">
+    <section id="contact" class="max-w-5xl mx-auto px-6 sm:px-10 py-20 border-t border-border">
         <div class="max-w-xl">
-            <h2 class="font-serif text-3xl mb-6">Un stage à me proposer ?</h2>
-            <p class="text-muted leading-relaxed mb-10">
-                Je cherche un stage de deux mois entre le 1ᵉʳ avril et le 31 août 2027. Toujours partant
-                pour discuter d'un projet technique concret, en développement comme en systèmes.
+            <h2 class="font-serif text-3xl mb-4">Me contacter</h2>
+            <p class="text-muted text-sm leading-relaxed mb-8">
+                À la recherche d'un stage de 2 mois (1er Avril — 31 Août 2027) en développement informatique.
             </p>
-            <div class="space-y-3 text-sm">
+            <div class="space-y-4 text-sm">
                 <a href="mailto:seiller.esteban.sn@gmail.com"
                     class="flex items-center justify-between border-b border-border pb-3 hover:border-accent group">
                     <span class="text-muted">Email</span>
-                    <span class="group-hover:text-accent transition-colors">seiller.esteban.sn@gmail.com</span>
+                    <span
+                        class="group-hover:text-accent transition-colors font-mono">seiller.esteban.sn@gmail.com</span>
                 </a>
                 <a href="tel:0647022798"
                     class="flex items-center justify-between border-b border-border pb-3 hover:border-accent group">
                     <span class="text-muted">Téléphone</span>
-                    <span class="group-hover:text-accent transition-colors">06 47 02 27 98</span>
+                    <span class="group-hover:text-accent transition-colors font-mono">06 47 02 27 98</span>
                 </a>
                 <div class="flex items-center justify-between border-b border-border pb-3">
                     <span class="text-muted">Localisation</span>
                     <span>Toulouse / Blagnac</span>
+                </div>
+                <div class="flex items-center justify-between border-b border-border pb-3">
+                    <span class="text-muted">Permis</span>
+                    <span>Permis B</span>
                 </div>
             </div>
         </div>
     </section>
 
     <footer
-        class="max-w-5xl mx-auto px-6 sm:px-10 py-10 border-t border-border flex items-center justify-between text-xs text-muted">
-        <span>Estéban Seiller</span>
-        <span>Bachelor développement informatique · IPI Toulouse</span>
+        class="max-w-5xl mx-auto px-6 sm:px-10 py-8 border-t border-border flex flex-col sm:flex-row items-center justify-between text-xs text-muted gap-2">
+        <span>Estéban Seiller · Portfolio</span>
+        <span>Bachelor Développement Informatique · IPI Blagnac</span>
     </footer>
 
 </body>
